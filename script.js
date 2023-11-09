@@ -7,7 +7,7 @@ function answer(choice) {
     if (choice === 'correct') {
         document.getElementById("result").innerHTML = "Congratulations! You got it right!";
     } else {
-        document.getElementById("result").innerHTML = "You Found The Secret Passcode . . . " +
+        document.getElementById("result").innerHTML = "You Found The Secret Button . . . " +
         "<span class='.secret-text'>now we don't have to make you disappear</span>";        
 
     }
