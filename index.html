@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Knock Knock Joke V 0.01</title>
+    <script src="script.js"></script>
+    <style>
+        .secret-text {
+            font-size: smaller;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <h1>Knock Knock!</h1>
+    <button onclick="tellJoke()">Who's there?</button>
+    <p id="joke"></p>
+    <div id="choices" style="display:none;">
+        <button onclick="answer('correct')">Correct Answer</button>
+        <button onclick="answer('wrong')">Wrong Answer</button>
+    </div>
+    <p id="result" style="display:none;"></p>
+</body>
+</html>
